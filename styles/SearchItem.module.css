@@ -1,0 +1,101 @@
+.container{
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    margin-bottom:20px;
+}
+.container img{
+    flex: 1;
+    height: 250px;
+}
+.container .info{
+    flex: 2;
+}
+.container.rating{
+    flex: 1;
+}
+.info{
+    margin-left: 15px;
+}
+.info h2{
+    color: #0067B7;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.distance{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+.info button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #02751E;
+    padding: 5px;
+}
+.info .desc{
+    font-weight: 700;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.info .stuff{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+.cancellation{
+    color: #02751E;
+    font-size: 15px;
+    font-weight: 600;
+}
+.cancel{
+    font-size: 14px;
+    color: #02751E;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.rating .up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.rating .up h3{
+    margin: 0;
+    margin-top: 5px;
+}
+.rating .up .number{
+    background-color: #04245B;
+    padding: 3px;
+    color: white;
+    margin-right: 10px;
+}
+.down h3{
+    text-align: right;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.down span{
+    color: gray;
+    display: block;
+    text-align: right;
+    font-size: 14px;
+}
+.down button{
+    background-color: #0067B7;
+    color: white;
+    border: none;
+    border-radius: 0.7rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 13px 40px;
+}

@@ -1,0 +1,192 @@
+.container{
+    position: relative;
+
+}
+.wrapper{
+    width: 70%;
+    margin: auto;
+}
+.opacity{
+  opacity: 0.6;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.left h1{
+    font-size: 1.8rem;
+}
+.left p{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.left p svg{
+    margin-right: 8px;
+    margin-bottom: 2px;
+}
+.distance{
+    color: #005FA8;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.green{
+    color: #02751E;
+}
+.info button{
+    background-color: #005FA8;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.imagesContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.imgWrapper{
+    flex: 1;
+    margin-right: 10px;
+}
+.imgWrapper img{
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+}
+
+.down{
+    display: flex;
+
+}
+.desc{
+    flex: 3;
+}
+.checkout{
+    flex: 1;
+    background-color: #E9F2FF;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 25px;
+    height: max-content;
+}
+.checkout h4{
+    margin: 0;
+    color: #434B54;
+}
+.checkout p{
+    font-size: 15px;
+}
+.checkout .price{
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+.checkout button{
+    background-color: #005FA8;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.slider{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.426);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+.sliderWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sliderWrapper img{
+    width: 80%;
+    height: 80vh;
+}
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+.arrow{
+    margin: 15px;
+    font-size: 60px;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.reservationContainer{
+    background-color: white;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+}
+.reservationWrapper{
+    position: relative;
+    padding: 25px;
+}
+.select{
+    font-size: 17px;
+    font-weight: 500;
+}
+.roomsContainer{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.room{
+    margin-bottom: 20px;
+}
+.room span{
+    display: block;
+    font-size: 15px;
+}
+.room .type{
+    font-weight: 600;
+}
+.room .people{
+    font-size: 13px;
+}
+.room .price{
+    font-weight: 600;
+    margin: 0;
+}
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+.reservebtn{
+    background-color: #005FA8;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0 150px;
+}
+.section{
+    flex: 1;
+}
+.section a{
+    color: #013074;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 15px;
+}

@@ -1,0 +1,88 @@
+
+.container{
+  
+}
+.topBar{
+    height: 60px;
+    width: 100%;
+    background-color: #013074;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.topBar h2{
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.topBarActions{
+    display: flex;
+    align-items: center;
+}
+.topBarActions button:first-child{
+    margin-right: 30px;
+}
+.topBarActions button{
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    color: #013074;
+    padding: 5px 20px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.topBarActions button:hover{
+    background-color: #013074;
+    color: white;
+    border: 2px solid white;
+}
+
+/*DOWNBAR*/
+.downBar{
+    background-color: #013074;
+    padding: 0 15%;
+    margin: 0;
+}
+.categories{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.category{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.category span{
+    margin-left: 10px;
+}
+.downBar{
+    padding-bottom: 120px;
+}
+.downBar h1{
+    color: white;
+}
+.downBar p{
+    color: white;
+    font-size: 14px;
+    margin-top: 0;
+}
+.downBar button{
+    background-color: #0067B7;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.downBar button:hover{
+    opacity: 0.9;
+}

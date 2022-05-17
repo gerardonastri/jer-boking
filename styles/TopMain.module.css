@@ -1,0 +1,86 @@
+.container{
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: -30px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0;
+    height: 60px;
+}
+.container  svg{
+    color: lightgray;
+}
+.container > button{
+    background-color: #0067B7;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.container > button:hover{
+    opacity: 0.9;
+}
+.searchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.searchBtn{
+    background-color: #0067B7;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.searchItem input{
+    border: none;
+    outline: none;
+}
+.searchItem span{
+    color: lightgray;
+    cursor: pointer;
+}
+
+.date{
+    position: absolute;
+    top: 50px;
+}
+
+.options{
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+.option{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+.optionActions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+
+}
+.optionActions button{
+    width: 30px;
+    height: 30px;
+    color: #0071c2;
+    border: 1px solid #0071c2;
+    cursor: pointer;
+    background-color: white;
+}

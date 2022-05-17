@@ -1,0 +1,48 @@
+.container{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #013074;
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+}
+.wrapper{
+
+}
+.wrapper h1{
+    color: white;
+    text-align: center;
+    font-size: 2.3rem;
+}
+.wrapper p{
+    margin: 0;
+    margin-bottom: 25px;
+    color: white;
+    text-align: center;
+}
+.input{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.input input{
+    outline: none;
+    border-radius: 0.8rem;
+    padding: 20px 8px;
+    width: 400px;
+    background-color: white;
+    border: none;
+    margin-right: 10px;
+    color: gray;
+    font-size: 0.8rem;
+}
+.input button{
+    border: none;
+    background-color: #0062AE;
+    color: white;
+    border-radius: 0.8rem;
+    padding: 20px 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
