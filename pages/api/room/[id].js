@@ -1,5 +1,5 @@
-import dbConnect from "../../util/mongo";
-import Room from '../../models/Room'
+import dbConnect from "../../../util/mongo";
+import Room from '../../../models/Room'
 
 
 const handler = async (req,res) => {
