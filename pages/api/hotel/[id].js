@@ -1,4 +1,4 @@
-import dbConnect from "../../../util/mongo";
+import dbConnect from "../../util/mongo";
 import Hotel from '../../../models/Hotel'
 
 
